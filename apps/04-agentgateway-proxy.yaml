@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: agentgateway-proxy
+  name: agentgateway-gateway
   namespace: argocd
 spec:
   destination:
